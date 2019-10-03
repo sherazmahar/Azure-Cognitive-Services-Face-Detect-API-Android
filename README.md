@@ -3,27 +3,38 @@ Microsoft Azure Cognitive Services Face API: Android app using the Face service 
 Features
 This project framework provides the following features:
 
-Detects faces in an image.
-Draws a rectangle around each face.
-Android screenshot of a photo with faces framed by a red rectangle
+Features
 
-Getting Started
-Prerequisites
-You need a subscription key to run the sample. You can get free trial subscription keys from Try Cognitive Services.
-Android Studio with minimum SDK 22 (required by the Face client library).
-The com.microsoft.projectoxford : face : 1.4.3 Java client library from Maven. It isn't necessary to download the package.
-Quickstart
-Clone or download the repository.
-Open Android Studio and select Open an existing Android Studio project.
-Navigate to the FaceTutorial folder and click OK.
-In the Project pane, expand app > java > com.contoso.facetutorial, then open MainActivity.
-Replace <API endpoint> with the Azure region associated with your subscription key.
-Replace <Subscription Key> with your subscription key.
-Run the app.
-Browse and select an image containing faces.
-Wait a few seconds for the Face service to respond.
-For more information, see Create an Android app to detect and frame faces in an image.
+This project framework provides the following features:
 
-Resources
-Face service documentation
-Face API
+* Detects faces in an image.
+* Draws a rectangle around each face.
+
+![Android screenshot of a photo with faces framed by a red rectangle](https://docs.microsoft.com/en-us/azure/cognitive-services/face/Images/android_getstarted2.1.PNG)
+
+## Getting Started
+
+### Prerequisites
+
+- You need a subscription key to run the sample. You can get free trial subscription keys from [Try Cognitive Services](https://azure.microsoft.com/try/cognitive-services/?api=face-api).
+- [Android Studio](https://developer.android.com/studio/) with minimum SDK 22 (required by the Face client library).
+- The [com.microsoft.projectoxford : face : 1.4.3](http://search.maven.org/#artifactdetails%7Ccom.microsoft.projectoxford%7Cface%7C1.4.3%7Caar) Java client library from Maven. It isn't necessary to download the package.
+
+### Quickstart
+
+1. Clone or download the repository.
+1. Open Android Studio and select **Open an existing Android Studio project**.
+1. Navigate to the *FaceTutorial* folder and click **OK**.
+1. In the **Project** pane, expand **app** > **java** > **com.contoso.facetutorial**, then open `MainActivity`.
+1. Replace `<API endpoint>` with the Azure region associated with your subscription key.
+1. Replace `<Subscription Key>` with your subscription key.
+1. Run the app.
+1. Browse and select an image containing faces.
+1. Wait a few seconds for the Face service to respond.
+
+For more information, see [Create an Android app to detect and frame faces in an image](https://docs.microsoft.com/en-us/azure/cognitive-services/face/tutorials/faceapiinjavaforandroidtutorial).
+
+## Resources
+
+- [Face service documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/face/)
+- [Face API](https://docs.microsoft.com/en-us/azure/cognitive-services/face/apireference)
